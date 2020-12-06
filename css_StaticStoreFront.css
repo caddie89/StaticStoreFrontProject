@@ -196,7 +196,7 @@
 
   #product-display {
       margin-top: 50px;
-      height: 300px;
+      height: 550px;
       width: 100%;
   }
 
@@ -213,9 +213,10 @@
 
   .products {
       display: inline-block;
+      position: relative;
       background-color: #8C0CA6;
-      margin: 20px 25px 20px 25px;
-      padding: 20px 20px 35px 20px;
+      margin: 1% 0 1% 3%;
+      padding: 1.5% 1.5% 3% 1.5%;
   }
 
   .products a{
@@ -227,11 +228,35 @@
       font-weight: bold;
       font-size: 20pt;
       margin-top: 25px;
-      border: solid #69A61C;;
+      border: solid #69A61C;
+      border-radius: 20px;
   }
 
   .products a:hover {
       background-color: #B900E0;
+  }
+
+  #footer {
+      display: block;
+      height: 80px;
+      width: 100%;
+      background-color: #69A61C;
+  }
+
+  .copyright {
+    display: inline-block;
+    font-family: Arial, Helvitica, sans-serif;
+    color: #B9FF5E;
+    padding: 20px
+  }
+
+  .social {
+    display: inline-block;
+    float: right;
+    padding: 20px;
+  }
+  .insta-icon {
+      height: 40px;
   }
 
 
